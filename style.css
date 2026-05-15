@@ -1,1 +1,30 @@
 
+:root {
+    --gold: #d4af37;
+    --dark-bg: #0a0a0a;
+    --glass: rgba(255, 255, 255, 0.05);
+    --text-light: #ffffff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+
+body { 
+    font-family: 'Poppins', sans-serif; 
+    background-color: var(--dark-bg); 
+    color: var(--text-light);
+    overflow-x: hidden;
+}
+
+header {
+    padding: 1.5rem 8%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    background: rgba(0,0,0,0.8);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
